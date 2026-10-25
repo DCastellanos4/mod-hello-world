@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "holamundo",
+  "version": "1.0.0",
+  "name": "Hola Mundo",
+  "description": "Mod para Minecraft Fabric 1.21.10 que responde !Hola mundo! al comando /hola",
+  "authors": [
+    "David"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/holamundo/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.david.holamundo.HolaMundoClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21",
+    "fabric-api": "*"
+  }
+}
